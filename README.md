@@ -1,0 +1,3 @@
+# ArtificialReverberationFeedbackDelayNetworksInSeries
+
+The structure of this algorithm is a novel take on FDN-based reverberation as it engages three cascading 16-delay line FDNs tuned-in at different delay lengths. While the FDNs are implemented using a Fractional Delay class, the FDNs themselves have a separate class. A Hadamard feedback matrix is used for the FDN. To apply width to the reverberation, a pseudo-stereo e↵ect is created by splitting the wet signal and simply delaying one channel by a small amount. Long Sea is developed using JUCE and is exported as a VST3 and tested using Ableton Live 102.
